@@ -1,0 +1,63 @@
+:root{
+    --pad: 15px 0 0 15px;
+    --boxsize: border-box;
+    --fl: left;
+    --bg: #ECD500;
+}
+
+.kar{
+    width: 600px;
+    min-height: 480px;
+    float: var(--fl);
+    background: white;
+}
+.head{
+    width: 600px;
+    min-height: 75px;
+    background: var(--bg);
+    float: var(--fl);
+    padding: var(--pad);
+    box-sizing: var(--boxsize);
+}
+.centr{
+    width: 600px;
+    min-height:300px ;
+    background: white;
+    float: var(--fl);
+    margin: 15px 0px;
+
+}
+.bottom{
+    width: 600px;
+    min-height: 75px;
+    float: var(--fl);
+    background: var(--bg);
+    padding: var(--pad);
+    box-sizing: var(--boxsize);
+}
+.nav{
+    width: 150px;
+    min-height: inherit;
+    background: var(--bg);
+    float: var(--fl);
+    padding: var(--pad);
+    box-sizing: var(--boxsize);
+
+}
+.art{
+    width: 320px;
+    min-height: inherit;
+    float: var(--fl);
+    background: var(--bg);
+    margin: 0 15px;
+    padding: var(--pad);
+    box-sizing: var(--boxsize);
+}
+.ads{
+    width: 100px;
+    min-height: 300px;
+    float: var(--fl);
+    background: var(--bg);
+    padding: var(--pad);
+    box-sizing: var(--boxsize);
+}
